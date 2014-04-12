@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #E5FFC9;
+}
+
+a:link {color:#CC0000;}       /* unvisited link */
+a:visited {color:#008F8F;}   /* visited link */
+a:hover {color:#4E5A65;}    /* mouse over link */
+a:active {color:#CC00CC;}   /* selected link */ 
+
+#header {
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerTitle {
+    width: 33%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Georgia,"Times New Roman",Serif;
+    font-size: 4em;
+    text-align:center;
+}
+
+#headerNavBar {
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pageContent {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    
+}
+#pic001 { 
+    display: inline;  
+}
+.pic001 {
+    float: right;
+    display: inline;
+}
+.caption01 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 2.5em;
+}
+        
+#pic002 {
+    font-size: 1.5em;
+    display: inline;
+}
+.pic002 {
+    float: left;
+    display: inline;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.caption02 {
+    float: right;
+    width: 25%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 20%;
+    font-size: 2.5em;
+}
+    
+#pic003 {
+    font-size: 1.5em;
+    }
+#pic003 {
+    float: right;
+    display: inline;
+    }
+.caption03 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 2.5em;
+}
+
+#footer {
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:7.5%;
+    width: 125px;
+    height: 30%;
+    display: block;
+    font-size: 1.5em;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #527A00;
+}
+
+
